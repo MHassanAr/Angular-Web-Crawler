@@ -1,0 +1,13 @@
+<div class="container">
+  <h1 class="main-heading">BBC-Web Crawler</h1>
+  <div *ngIf="titlesAndDescriptions.length > 0">
+    <div
+      *ngFor="let item of titlesAndDescriptions"
+      class="title-description-box"
+    >
+      <h3 class="title">{{ item.title }}</h3>
+      <p class="description">{{ item.description }}</p>
+    </div>
+  </div>
+  <p *ngIf="titlesAndDescriptions.length === 0" class="loading">Loading...</p>
+</div>
