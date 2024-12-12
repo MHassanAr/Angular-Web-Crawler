@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { BbcTitlesComponent } from './components/bbc-titles/bbc-titles.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: `<app-bbc-titles></app-bbc-titles>`,
+  imports: [BbcTitlesComponent],
 })
-export class AppComponent {
-  title = 'web-crawler';
-}
+export class AppComponent {}
