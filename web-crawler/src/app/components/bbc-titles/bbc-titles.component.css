@@ -3,7 +3,7 @@
   text-align: center;
   padding: 20px;
   font-family: Arial, sans-serif;
-  background-color: #dce4c9; 
+  background-color: #dce4c9;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -11,54 +11,54 @@
 /* Style for the main heading */
 .main-heading {
   font-size: 36px;
-  color: #e07b39; 
+  color: #e07b39;
   margin-bottom: 20px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border-bottom: 4px solid #b6a28e; 
+  border-bottom: 4px solid #b6a28e;
   display: inline-block;
   padding-bottom: 5px;
 }
 
 /* Style for the title-description box */
 .title-description-box {
-  border: 2px solid #b6a28e; 
+  border: 2px solid #b6a28e;
   border-radius: 10px;
   padding: 20px;
   margin: 10px auto;
   width: 60%;
-  background-color: #f5f5dc; 
+  background-color: #f5f5dc;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
   text-align: left;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .title-description-box:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Style for the titles */
 .title {
   font-size: 24px;
-  color: #e07b39; 
+  color: #e07b39;
   margin-bottom: 10px;
   font-weight: bold;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
 }
 
 /* Style for the descriptions */
 .description {
   font-size: 18px;
-  color: #555; 
+  color: #555;
   line-height: 1.6;
-  font-family: "Verdana", sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 /* Loading text style */
 .loading {
   font-size: 20px;
-  color: #b6a28e; 
+  color: #b6a28e;
   margin-top: 20px;
 }
